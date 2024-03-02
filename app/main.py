@@ -6,6 +6,7 @@ from fastapi.responses import JSONResponse
 
 app = FastAPI()
 
+
 model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 
